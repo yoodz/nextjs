@@ -1,8 +1,16 @@
 .container {
   text-align: center;
+  background-color: #F6DCDC;
+  min-height: 100vh;
 }
 
 .buttonAlert {
-  width: 80%;
-  margin: 0 auto;
+  width: 90%;
+  margin: 5px auto;
+  height: 50px;
+}
+
+.banner {
+  width: 70%;
+  padding: 20px 0;
 }
