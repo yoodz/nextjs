@@ -1,0 +1,14 @@
+.message {
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.error {
+    background-color: #ea644a;
+}
