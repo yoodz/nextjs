@@ -35,7 +35,6 @@ export default function Home() {
   }
 
   function handleLeaveMessage() {
-    console.log(message, 'index-19')
     if (message.length <= 0) {
       notify('error', '请输入留言')
       return
@@ -47,7 +46,7 @@ export default function Home() {
   return (
     <div className={s.container}>
       { show && <TipMessage message={alert} />}
-      <img className={s.banner} src="http://res.afunny.top/static/example-7%20%281%29.png" />
+      <img className={s.banner} src="../static/banner.png" />
       <div className={s.buttonWrap}>
         <div onClick={() => handleClick('有人来啦')} className={s.baseButton}>响铃</div>
         <div onClick={() => handleClick('快递来了')} className={s.baseButton}>快递来了</div>
