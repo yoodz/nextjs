@@ -1,6 +1,6 @@
 import { useState } from "react";
-import TipMessage from "../components/tipMessage/tipMessage";
-import s from "../styles/Home.module.css";
+// import TipMessage from "@components/tipMessage/tipMessage";
+import s from "./index.module.css";
 
 export default function Home() {
   const [message, setMessage] = useState('')
@@ -45,7 +45,7 @@ export default function Home() {
 
   return (
     <div className={s.container}>
-      { show && <TipMessage message={alert} />}
+      {/* { show && <TipMessage message={alert} />} */}
       <img className={s.banner} src="../static/banner.png" />
       <div className={s.buttonWrap}>
         <div onClick={() => handleClick('有人来啦')} className={s.baseButton}>响铃</div>

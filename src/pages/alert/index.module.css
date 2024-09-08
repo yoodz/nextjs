@@ -1,0 +1,53 @@
+.container {
+  text-align: center;
+  background-color: #fff;
+  /* background-image: url('../static/bg.texture-a804782b.png'); */
+  min-height: 100vh;
+}
+
+.buttonAlert {
+  width: 90%;
+  margin: 5px auto;
+  height: 50px;
+}
+
+.banner {
+  width: 85%;
+  padding: 20px 0;
+}
+
+.buttonWrap {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.baseButton {
+  text-align: center;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  height: 54px;
+  line-height: 54px;
+  margin-top: 15px;
+  border-color: #17a2b8;
+  color: #16BAE7;
+}
+
+.baseButton:active {
+  background: #16BAE7;
+  color: #FFFFFF;
+}
+
+
+.input {
+  width: 97%;
+  margin-top: 15px;
+  height: 54px;
+  border: 0;
+  outline: 0;
+  color: #16BAE7;
+  font-size: 14px;
+  opacity: 0.5;
+  border: 1px solid #16BAE7;
+  border-radius: 5px;
+  text-indent: 1em;
+}
